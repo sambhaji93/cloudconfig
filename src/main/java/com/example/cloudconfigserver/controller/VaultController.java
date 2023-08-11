@@ -1,5 +1,6 @@
 import org.springframework.vault.core.VaultTemplate;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.http.ResponseEntity;
 
 @RestController
 @RequestMapping("/api/vault")
